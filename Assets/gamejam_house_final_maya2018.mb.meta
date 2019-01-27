@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 52ac91b09f70e724386acc90218869c0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: exterior
+    100002: //RootNode
+    100004: interior1
+    100006: pCube4
+    100008: pCube4 1
+    100010: pCube6
+    100012: pCube6 1
+    100014: window_bot_lrg
+    100016: window_bot_lrg 1
+    100018: window_bot_lrg 10
+    100020: window_bot_lrg 11
+    100022: window_bot_lrg 12
+    100024: window_bot_lrg 13
+    100026: window_bot_lrg 14
+    100028: window_bot_lrg 15
+    100030: window_bot_lrg 2
+    100032: window_bot_lrg 3
+    100034: window_bot_lrg 4
+    100036: window_bot_lrg 5
+    100038: window_bot_lrg 6
+    100040: window_bot_lrg 7
+    100042: window_bot_lrg 8
+    100044: window_bot_lrg 9
+    100046: window_bot_sm
+    100048: window_bot_sm 1
+    100050: window_large
+    100052: window_large1
+    100054: window_large10
+    100056: window_large11
+    100058: window_large12
+    100060: window_large13
+    100062: window_large14
+    100064: window_large15
+    100066: window_large2
+    100068: window_large3
+    100070: window_large4
+    100072: window_large5
+    100074: window_large6
+    100076: window_large7
+    100078: window_large8
+    100080: window_large9
+    100082: window_small
+    100084: window_small1
+    100086: window_top_lrg
+    100088: window_top_lrg 1
+    100090: window_top_lrg 10
+    100092: window_top_lrg 11
+    100094: window_top_lrg 12
+    100096: window_top_lrg 13
+    100098: window_top_lrg 14
+    100100: window_top_lrg 15
+    100102: window_top_lrg 2
+    100104: window_top_lrg 3
+    100106: window_top_lrg 4
+    100108: window_top_lrg 5
+    100110: window_top_lrg 6
+    100112: window_top_lrg 7
+    100114: window_top_lrg 8
+    100116: window_top_lrg 9
+    100118: window_top_sm
+    100120: window_top_sm 1
+    400000: exterior
+    400002: //RootNode
+    400004: interior1
+    400006: pCube4
+    400008: pCube4 1
+    400010: pCube6
+    400012: pCube6 1
+    400014: window_bot_lrg
+    400016: window_bot_lrg 1
+    400018: window_bot_lrg 10
+    400020: window_bot_lrg 11
+    400022: window_bot_lrg 12
+    400024: window_bot_lrg 13
+    400026: window_bot_lrg 14
+    400028: window_bot_lrg 15
+    400030: window_bot_lrg 2
+    400032: window_bot_lrg 3
+    400034: window_bot_lrg 4
+    400036: window_bot_lrg 5
+    400038: window_bot_lrg 6
+    400040: window_bot_lrg 7
+    400042: window_bot_lrg 8
+    400044: window_bot_lrg 9
+    400046: window_bot_sm
+    400048: window_bot_sm 1
+    400050: window_large
+    400052: window_large1
+    400054: window_large10
+    400056: window_large11
+    400058: window_large12
+    400060: window_large13
+    400062: window_large14
+    400064: window_large15
+    400066: window_large2
+    400068: window_large3
+    400070: window_large4
+    400072: window_large5
+    400074: window_large6
+    400076: window_large7
+    400078: window_large8
+    400080: window_large9
+    400082: window_small
+    400084: window_small1
+    400086: window_top_lrg
+    400088: window_top_lrg 1
+    400090: window_top_lrg 10
+    400092: window_top_lrg 11
+    400094: window_top_lrg 12
+    400096: window_top_lrg 13
+    400098: window_top_lrg 14
+    400100: window_top_lrg 15
+    400102: window_top_lrg 2
+    400104: window_top_lrg 3
+    400106: window_top_lrg 4
+    400108: window_top_lrg 5
+    400110: window_top_lrg 6
+    400112: window_top_lrg 7
+    400114: window_top_lrg 8
+    400116: window_top_lrg 9
+    400118: window_top_sm
+    400120: window_top_sm 1
+    2100000: house_lambert
+    2300000: exterior
+    2300002: interior1
+    2300004: window_bot_lrg
+    2300006: window_bot_lrg 1
+    2300008: window_bot_lrg 10
+    2300010: window_bot_lrg 11
+    2300012: window_bot_lrg 12
+    2300014: window_bot_lrg 13
+    2300016: window_bot_lrg 14
+    2300018: window_bot_lrg 15
+    2300020: window_bot_lrg 2
+    2300022: window_bot_lrg 3
+    2300024: window_bot_lrg 4
+    2300026: window_bot_lrg 5
+    2300028: window_bot_lrg 6
+    2300030: window_bot_lrg 7
+    2300032: window_bot_lrg 8
+    2300034: window_bot_lrg 9
+    2300036: window_bot_sm
+    2300038: window_bot_sm 1
+    2300040: window_top_lrg
+    2300042: window_top_lrg 1
+    2300044: window_top_lrg 10
+    2300046: window_top_lrg 11
+    2300048: window_top_lrg 12
+    2300050: window_top_lrg 13
+    2300052: window_top_lrg 14
+    2300054: window_top_lrg 15
+    2300056: window_top_lrg 2
+    2300058: window_top_lrg 3
+    2300060: window_top_lrg 4
+    2300062: window_top_lrg 5
+    2300064: window_top_lrg 6
+    2300066: window_top_lrg 7
+    2300068: window_top_lrg 8
+    2300070: window_top_lrg 9
+    2300072: window_top_sm
+    2300074: window_top_sm 1
+    3300000: exterior
+    3300002: interior1
+    3300004: window_bot_lrg
+    3300006: window_bot_lrg 1
+    3300008: window_bot_lrg 10
+    3300010: window_bot_lrg 11
+    3300012: window_bot_lrg 12
+    3300014: window_bot_lrg 13
+    3300016: window_bot_lrg 14
+    3300018: window_bot_lrg 15
+    3300020: window_bot_lrg 2
+    3300022: window_bot_lrg 3
+    3300024: window_bot_lrg 4
+    3300026: window_bot_lrg 5
+    3300028: window_bot_lrg 6
+    3300030: window_bot_lrg 7
+    3300032: window_bot_lrg 8
+    3300034: window_bot_lrg 9
+    3300036: window_bot_sm
+    3300038: window_bot_sm 1
+    3300040: window_top_lrg
+    3300042: window_top_lrg 1
+    3300044: window_top_lrg 10
+    3300046: window_top_lrg 11
+    3300048: window_top_lrg 12
+    3300050: window_top_lrg 13
+    3300052: window_top_lrg 14
+    3300054: window_top_lrg 15
+    3300056: window_top_lrg 2
+    3300058: window_top_lrg 3
+    3300060: window_top_lrg 4
+    3300062: window_top_lrg 5
+    3300064: window_top_lrg 6
+    3300066: window_top_lrg 7
+    3300068: window_top_lrg 8
+    3300070: window_top_lrg 9
+    3300072: window_top_sm
+    3300074: window_top_sm 1
+    4300000: window_top_lrg
+    4300002: window_bot_lrg
+    4300004: window_top_sm
+    4300006: window_bot_sm
+    4300008: window_top_lrg
+    4300010: window_bot_lrg
+    4300012: window_top_lrg
+    4300014: window_bot_lrg
+    4300016: window_top_lrg
+    4300018: window_bot_lrg
+    4300020: window_top_lrg
+    4300022: window_bot_lrg
+    4300024: window_top_lrg
+    4300026: window_bot_lrg
+    4300028: window_top_lrg
+    4300030: window_bot_lrg
+    4300032: window_top_lrg
+    4300034: window_bot_lrg
+    4300036: window_top_lrg
+    4300038: window_bot_lrg
+    4300040: window_top_sm
+    4300042: window_bot_sm
+    4300044: window_top_lrg
+    4300046: window_bot_lrg
+    4300048: window_top_lrg
+    4300050: window_bot_lrg
+    4300052: window_top_lrg
+    4300054: window_bot_lrg
+    4300056: window_top_lrg
+    4300058: window_bot_lrg
+    4300060: window_top_lrg
+    4300062: window_bot_lrg
+    4300064: window_top_lrg
+    4300066: window_bot_lrg
+    4300068: window_top_lrg
+    4300070: window_bot_lrg
+    4300072: interior1
+    4300074: exterior
+    6400000: exterior
+    6400002: interior1
+    6400004: window_bot_lrg
+    6400006: window_bot_lrg 1
+    6400008: window_bot_lrg 10
+    6400010: window_bot_lrg 11
+    6400012: window_bot_lrg 12
+    6400014: window_bot_lrg 13
+    6400016: window_bot_lrg 14
+    6400018: window_bot_lrg 15
+    6400020: window_bot_lrg 2
+    6400022: window_bot_lrg 3
+    6400024: window_bot_lrg 4
+    6400026: window_bot_lrg 5
+    6400028: window_bot_lrg 6
+    6400030: window_bot_lrg 7
+    6400032: window_bot_lrg 8
+    6400034: window_bot_lrg 9
+    6400036: window_bot_sm
+    6400038: window_bot_sm 1
+    6400040: window_top_lrg
+    6400042: window_top_lrg 1
+    6400044: window_top_lrg 10
+    6400046: window_top_lrg 11
+    6400048: window_top_lrg 12
+    6400050: window_top_lrg 13
+    6400052: window_top_lrg 14
+    6400054: window_top_lrg 15
+    6400056: window_top_lrg 2
+    6400058: window_top_lrg 3
+    6400060: window_top_lrg 4
+    6400062: window_top_lrg 5
+    6400064: window_top_lrg 6
+    6400066: window_top_lrg 7
+    6400068: window_top_lrg 8
+    6400070: window_top_lrg 9
+    6400072: window_top_sm
+    6400074: window_top_sm 1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.003
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

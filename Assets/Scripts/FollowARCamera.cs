@@ -3,19 +3,24 @@ using System.Collections;
 
 public class FollowARCamera : MonoBehaviour
 {
-
     public GameObject cameraOBJ;
-
-    private Vector3 offset;
+    public bool follow = true;
+    public Vector3 camOffset = new Vector3(0, -1, 3);
 
     void Start()
     {
-        cameraOBJ = GameObject.FindGameObjectWithTag("MainCamera");
-        offset = transform.position - cameraOBJ.transform.position;
+        cameraOBJ = GameObject.FindGameObjectWithTag("MainCamera");        
     }
 
     void LateUpdate()
     {
-        transform.position = cameraOBJ.transform.position + offset;
+        if (follow)
+        {
+            transform.position = cameraOBJ.transform.position +
+            cameraOBJ.transform.right * camOffset.x +
+            cameraOBJ.transform.up * camOffset.y +
+            cameraOBJ.transform.forward * camOffset.z;
+            transform.rotation = Quaternion.LookRotation(Vector3.Normalize(cameraOBJ.transform.position - transform.position));
+        }
     }
 }

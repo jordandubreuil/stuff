@@ -38,12 +38,14 @@ public class ThrowBallController : MonoBehaviour
     public GameObject linkedObject; // use for a 2d aim object
     public Transform target;
     public ParticleSystem curveParticle;
+    public FollowARCamera followAR;
 
     //set instance to this object only happends once per game startup 
     void Awake()
     {
         throwPaperInstance = this;
         target = GetComponent<Transform>();
+        transform.parent = GameObject.FindWithTag("MainCamera").transform;
     }
 
 
@@ -65,7 +67,7 @@ public class ThrowBallController : MonoBehaviour
     //spawn new ball
     IEnumerator GetBallNow()
     {
-        Debug.Log("Spawming new Ball..");
+        Debug.Log("Spawning new Ball..");
         //wait for few seconds then spawn ball when game starts
         yield return new WaitForSeconds(3f);
         if (currentBall != null)
@@ -75,6 +77,8 @@ public class ThrowBallController : MonoBehaviour
         }
         //spawn new ball
         currentBall = Instantiate(ball, ball.transform.position, Quaternion.identity) as GameObject;
+        followAR = currentBall.GetComponent<FollowARCamera>();
+
         //disable collider just in case
         currentBall.GetComponent<Collider>().enabled = false;
     }
@@ -332,7 +336,6 @@ public class ThrowBallController : MonoBehaviour
     {
         if (ObjectMouseDown == true)
         {
-
             if (!currentBall)
                 return;
 
@@ -344,6 +347,7 @@ public class ThrowBallController : MonoBehaviour
             v3Offset.z = 0;
             currentBall.transform.position = v3Pos + v3Offset;
 
+            followAR.follow = false;
 
             if (ballPos.Count > 0)
             {
@@ -469,8 +473,6 @@ public class ThrowBallController : MonoBehaviour
         ballRigidbody.AddForce(force * factor);
 
         StartCoroutine(GetBallNow());
-
-        //currentBall = null;
     }
 
     public bool IsGettingDirection

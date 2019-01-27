@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 114406200167233970}
   m_Layer: 10
   m_Name: Holder
-  m_TagString: Untagged
+  m_TagString: hat
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,8 +233,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1024551056377484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.45, z: -4.69}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 3.062963, z: -9.497677}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
   - {fileID: 4545985717220622}
   - {fileID: 4980574488900330}
@@ -794,12 +794,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1024551056377484}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e67656a3196f095479e9475425b679de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cameraOBJ: {fileID: 0}
+  follow: 1
+  camOffset: {x: 0, y: -0.5, z: 1}
 --- !u!114 &114731188871287138
 MonoBehaviour:
   m_ObjectHideFlags: 1

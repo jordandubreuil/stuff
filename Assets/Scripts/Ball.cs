@@ -27,8 +27,6 @@ public class Ball : MonoBehaviour
     private bool isRotate = false;
     public Camera cam;
 
-
-
     void OnEnable()
     {
         //set default position when object enable
@@ -209,6 +207,8 @@ public class Ball : MonoBehaviour
         childBall.localRotation = Quaternion.identity;
         isRotate = false;
         jumpCoroutine = JumpAround(0.3f);
+
+        GetComponent<FollowARCamera>().follow = true;
 
         StartCoroutine(jumpCoroutine);
     }
